@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.modal-customBackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pagination > li > a {
+  background-color: white;
+  color: #d32a2a;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+  color: #5a5a5a;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination > .active > a {
+  color: white;
+  background-color: #d32a2a !important;
+  border: solid 1px #d32a2a !important;
+}
+
+.pagination > .active > a:hover {
+  background-color: #d32a2a !important;
+  border: solid 1px #d32a2a;
+}
+
+.list-group-item.active {
+  background-color: #d32a2a !important;
+  border-color: #d32a2a !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.form-control:focus {
+  outline: 2px solid #d32a2a !important;
+  border-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.form-select:focus {
+  outline: 2px solid #d32a2a !important;
+  border-color: #fff !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    top: 0.25em;
+    position: absolute;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-login-text {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .navbar-login-icon {
+    display: none;
+  }
+}
