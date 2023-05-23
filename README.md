@@ -17,25 +17,6 @@ It utilizes a NODE.js REST API codet by me, you can find it's code in my reposit
 In production it is intended to validate users and admins with Microsoft's Active Directory, in this demo a user and a admin account exists for testing purposes.
 in production a order will be send to the API of Zammad's Ticket System. It just utilizes a REST API and can therefor be changed to your needs (another ticket system, send the order data by mail etc.) In this demo hitting the order submit, nothing will happen.
 
-# How to login to this demoversion
-
-Use this credentials to test the usability for a standard user:
-username: "user"
-password: "user"
-
-Use this credentials to test the usability for a admin user:
-username: "admin"
-password: "admin"
-
-
-# About this App
-
-This is a demoversion of an intranet webshop. A production version of this App can be used by an IT deparment to create categorys and articles which can then be ordered by the companys customers. 
-It utilizes a NODE.js REST API codet by me, you can find it's code in my repository: "webshop-api"
-
-In production it is intended to validate users and admins with Microsoft's Active Directory, in this demo a user and a admin account exists for testing purposes.
-in production a order will be send to the API of Zammad's Ticket System. It just utilizes a REST API and can therefor be changed to your needs (another ticket system, send the order data by mail etc.) In this demo hitting the order submit, nothing will happen.
-
 
 # Getting Started with Create React App
 
